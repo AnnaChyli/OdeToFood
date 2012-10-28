@@ -11,7 +11,7 @@ namespace OdeToFood.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201210161548264_InitialCreate"; }
+            get { return "201210280255140_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source
