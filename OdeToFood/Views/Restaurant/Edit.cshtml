@@ -18,6 +18,10 @@
             @Html.LabelFor(model => model.Name)
         </div>
         <div class="editor-field">
+            
+            <input type="text" value="@Model.Name" />
+            
+                        
             @Html.EditorFor(model => model.Name)
             @Html.ValidationMessageFor(model => model.Name)
         </div>
